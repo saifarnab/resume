@@ -1,0 +1,259 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2017, 11:29:28 PM
+    Author     : Saif Arnab
+*/
+@font-face {
+    font-family: arial;
+    src: url("../fonts/arial.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: arial;
+    src: url("../fonts/arial.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family: intro-inline;
+    src: url("../fonts/Intro_Inline.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: intro-inline;
+    src: url("../fonts/Intro Inline.ttf") /* TTF file for CSS3 browsers */
+}
+body{
+    background: #282828;
+}
+.main_wrapper{
+    width: 100%;
+    height: auto;
+    font-family: arial,sans-serif;
+}
+.main{
+    width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: inline-flex;
+
+}
+.about_yourself {
+    width: 35%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.name {
+    background: #b8b8b8;
+    padding-bottom: 140px;
+    text-align: center;
+    padding-top: 10px;
+}
+.name > h1{
+    font-family: intro-inline;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+.name > p{
+    font-family: intro-inline;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: rgb(40, 40, 40);
+}
+.photo {
+    width: 45%;
+    top: 90px;
+    position: absolute;
+    left: 25%;
+}
+.photo > img{
+    max-width: 100%;
+}
+.details {
+    background: #f4d500;
+    color: #756834;
+    overflow: hidden;
+    padding-top: 100px;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    margin-top: 25px;
+    padding-bottom: 60px;
+}
+.contact > pre{
+    font-family: arial;
+    line-height: 22px;
+    font-size: 20px;
+}
+.contact > pre > a{
+    font-family: arial;
+    line-height: 22px;
+    font-size: 20px;
+    color: #756834;
+    text-decoration: none;
+}
+.contact > pre > a:hover{
+    text-decoration: underline;
+}
+.profile {
+    padding-bottom: 50px;
+}
+.profile > pre{
+    /*font-size: 18px;*/
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.skills {
+    padding-bottom: 50px;
+}
+.skills > pre{
+    font-family: arial;
+    font-size: 17.33333px;
+    line-height: 33px;
+}
+.institution {
+
+}
+.institution > h3{}
+.institution > h3 > a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #202021;
+    font-weight: 600;
+}
+.institution > h3 > a:hover{
+    text-decoration: underline;
+}
+.institution > p{
+    font-size: 13px;
+    padding-top: 5px;
+}
+.working_details {
+    background: #202021;
+    width: 65%;
+    float: right;
+    background-image: url(../images/shadow.png);
+    background-repeat: no-repeat;
+    background-size: 221px;
+    background-position-x: 130px;
+    background-position-y: 170px;
+    padding-bottom: 25px;
+}
+
+.angle_box {
+    width: 35%;
+    position: relative;
+    left: 30%;
+    top: 50px;
+    margin-bottom: 57.5px;
+}
+.angle_box > img{
+    max-width: 100%;
+}
+.work_flow{
+    position: absolute;
+    left: 27%;
+    top: 115px;
+    font-size: 27px;
+    font-style: italic;
+}
+.work_flow > h2{
+    color: white;
+}
+.block {
+    display: inline-flex;
+    width: 60%;
+    padding-top: 65px;
+    margin-left: 25%; 
+}
+
+.date {
+    width: 20%;
+    float: left;
+    display: block;
+    /* overflow: hidden; */
+    text-align: right;
+    margin-right: 25px;
+}
+.date > h1{
+    font-size: 27px;
+    color: #f9f8f8;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 3px;
+}
+.date > p{
+    font-size: 16px;
+    display: block;
+    color: #a5a09d;
+}
+.description {
+    width: 80%;
+    display: block;
+    float: right;
+}
+.description > h2{
+    font-size: 20px;
+    color: #f4d500;
+    padding-bottom: 6px;
+}
+.description > h4{
+    font-size: 16px;
+    color: #b8b3b0;
+    padding-bottom: 10px;
+}
+.description > p{
+    font-size: 15px;
+    color: white;
+    line-height: 15px;
+}
+.contact_flow {
+    position: absolute;
+    right: 670px;
+    top: 290px;
+    display: block;
+    background: #202021;
+
+}
+
+.profile_flow {
+    position: absolute;
+    right: 670px;
+    top: 460px;
+    display: block;
+    background: #202021;
+}
+.skill_flow {
+    position: absolute;
+    right: 670px;
+    top: 670px;
+    display: block;
+    background: #202021;
+}
+.education_flow{
+    position: absolute;
+    right: 670px;
+    top: 990px;
+    display: block;
+    background: #202021;
+}
+.contact_flow > h3,.profile_flow > h3,.skill_flow > h3,.education_flow > h3{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+}
